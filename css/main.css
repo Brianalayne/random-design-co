@@ -105,8 +105,11 @@ textarea {
    }
 
    body {
-     border: 1px solid red;
      font-family: sans-serif;
+   }
+
+   img {
+     max-width: 100%;
    }
 
    .page-header {
@@ -127,6 +130,67 @@ textarea {
      position: absolute;
      top: 1em;
      right: 1em;
+   }
+
+   .feature {
+     position: relative;
+   }
+
+   .background-image {
+     display: block;
+     z-index: -10;
+     position: relative;
+     width: 100%;
+   }
+
+   .feature-content {
+     color: #fff;
+     position: absolute;
+     top: 50%;
+     bottom: 50%;
+     text-align: center;
+     transform: translate(-50%, -50%);
+   }
+
+   .feature h2 {
+     font-size: 4em;
+   }
+
+   .feature p {
+     border: 1px solid #fff;
+   }
+
+   .about {
+     border-bottom: 1px solid gray;
+   }
+
+   .latest-work {
+     border: 1px solid red;
+   }
+
+   .project {
+     position: relative;
+   }
+
+   .project-image {
+     display: block;
+     z-index: -10;
+     position: relative;
+     width: 100%;
+   }
+
+   .project-name {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+   }
+
+   .project-name p {
+     color: #fff;
+     margin: 0;
+     font-style: bold;
    }
 
    .page-footer {
